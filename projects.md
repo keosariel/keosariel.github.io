@@ -1,4 +1,4 @@
-[Health Report App Api](https://github.com/keosariel/health-report-api-project)
+**[Health Report App Api](https://github.com/keosariel/health-report-api-project)**
 
 An API for a health report app where patience can make complaints and doctors reply with a instruction to what they should do.
 
@@ -6,7 +6,7 @@ An API for a health report app where patience can make complaints and doctors re
 
 -----
 
-[Linktree API](https://github.com/keosariel/Linktree-API)
+**[Linktree API](https://github.com/keosariel/Linktree-API)**
 
 An implementation of the Linktree-API.
 
@@ -14,7 +14,7 @@ API DOCUMENTATION: comming soon...
 
 -----
 
-[Flask JSONValidator](https://github.com/keosariel/flask_jsonvalidator)
+**[Flask JSONValidator](https://github.com/keosariel/flask_jsonvalidator)**
 
 This is a project that was created in solving a problem I had while building API's, which is
 validating JSON data been sent with a requests and returning nice and readable errors.
@@ -23,13 +23,13 @@ validating JSON data been sent with a requests and returning nice and readable e
 
 -----
 
-[Sqlite index](https://github.com/keosariel/sqlite-index)
+**[Sqlite index](https://github.com/keosariel/sqlite-index)**
 
 A simple means to Index and search data in a sqlite database.
 
 -----
 
-[Nairathreads](https://github.com/keosariel/nairathreads)
+**[Nairathreads](https://github.com/keosariel/nairathreads)**
 
 ![Nairathreads image demo](https://github.com/keosariel/nairathreads/raw/master/sample.png)
 
@@ -39,7 +39,7 @@ This is a simple implementation of lobste.rs, it's simply a community centered a
 
 -----
 
-[Toy Programming Language](https://github.com/keosariel/Programming-language-in-python-using-llvmlite)
+**[Toy Programming Language](https://github.com/keosariel/Programming-language-in-python-using-llvmlite)**
 
 This is a compiler for a language, built with Python 3.6 and the LLVM framework using the llvmlite library.
 
@@ -56,7 +56,7 @@ see [mandelbrot set](https://github.com/keosariel/Programming-language-in-python
 
 -----
 
-[Third Party Commenting System (disqus clone)](https://github.com/keosariel/disqus-hackernews-commenting-clone)
+**[Third Party Commenting System (disqus clone)](https://github.com/keosariel/disqus-hackernews-commenting-clone)**
 
 ![disqus clone demo gif](https://github.com/keosariel/disqus-hackernews-commenting-clone/raw/master/disqus-clone-demo.gif)
 
