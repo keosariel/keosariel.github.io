@@ -4,40 +4,27 @@ title: 'Hello, world'
 published: true
 ---
 
-*The Strange Case of Dr. Jekyll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel's supporting cast is a man by the name of Mr. Poole, Dr. Jekyll's loyal butler.
+Over the years, when starting to learn a new language it's a convention that your first program is called "Hello, world" and surely the program should also print the phrase too. However, it'll be nice inheriting this concept in blogging too as I'm new to the blogging industry if I'm allowed to reference the blogging space that way. Moreover, it'd be absurd if my first post just reads "hello, world", because it should be more of an introduction of myself to you and not to myself.
 
 -----
 
-Poole is the butler for [Jekyll](http://jekyllrb.com), the static site generator. It's designed and developed by [@mdo](https://twitter.com/mdo) to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example layouts, pages, posts, and styles.
+Hello, I'm kenneth gabriel (@keosariel) and I'm a software engineer mainly focusing on building API's. I live in Lagos, Nigeria and I mostly work remotely. I'm currently using Python as my preferred language and I've been programming in python for the past 6yrs (4yrs professionally). I consider myself a reasonably experienced web developer with a particular interest in building **fast**, **secured** and well **documented** API's. 
 
-This demo site was last updated {{ site.time | date: "%B %d, %Y" }}.
+That's enough of me, now the reason for creating/starting this blog...
 
-There are currently two themes built on Poole:
+*In his 1959 classic, The Sociological Imagination, the great sociologist C. Wright Mills told students of the discipline:*
+>As a social scientist, you have to … capture what you experience and sort it out; only in this way can you hope to use it to guide and test your reflection, and in the process shape yourself as an intellectual craftsman. But how can you do this? One answer is: you must set up a blog…
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+> In such a blog … there is joined personal experience and professional activities, studies under way and studies planned. In this blog, you … will try to get together what you are doing intellectually and what you are experiencing as a person. here you will not be afraid to use your experience and relate it directly to various work in progress. By serving as a check on repetitious work, your blog also enables you to conserve your energy. It also encourages you to capture ‘fringe-thoughts’: various ideas which may be byproducts of everyday life, snatches of conversation overheard in the street, or, for that matter, dreams. Once noted, these may lead to more systematic thinking, as well as lend intellectual relevance to more directed experience.
 
-Learn more and contribute on [GitHub]({{ site.github.repo }}).
+> …The blog also helps you build up the habit of writing. … In developing the blog, you can experiment as a writer and this, as they say, develop your powers of expression.
 
-## What's included
+Actually, he called it a “file” instead of a blog, but the point remains the same: becoming a scientific thinker requires practice and writing is a powerful aid to reflection.
 
-Poole is a streamlined Jekyll site designed and built as a foundation for building more meaningful themes. Poole, and every theme built on it like this one, includes the following:
+The writeups above were referenced from a person ([Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz)) I idolise in his [blog post](http://www.aaronsw.com/weblog/about).
 
-* Complete Jekyll setup included (layouts, config, [404]({{ '404.html' | relative_url }}), [RSS feed]({{ 'atom.xml' | relative_url }}), posts, [archive page]({{ 'archive' | relative_url }}), and [example page]({{ 'about' | relative_url }}))
-* Mobile friendly design and development
-* Easily scalable text and component sizing with `rem` units in the CSS
-* Support for a wide gamut of HTML elements
-* Related posts (time-based, because Jekyll) below each post
-* Syntax highlighting, courtesy Jekyll's built-in support for Rouge
+So here I'd write about my thoughts and ideas, things I’m working on, stuff I’ve read, experiences I’ve had, and definitly talk about python and probably few tutorials and explanations of the inner workings of several softwares and so on. 
 
-Additional features are available in individual themes.
+-----
 
-## Browser support
-
-Poole and its themes are by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), Firefox, and Edge.
-
-## Download
-
-These themes are developed on and hosted with GitHub. Head to the [GitHub repository]({{ site.github.repo }}) for downloads, bug reports, and features requests.
-
-Thanks!
+Thanks for reading this far!
