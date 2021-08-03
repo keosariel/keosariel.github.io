@@ -1,5 +1,5 @@
 # Setup
-title: keosariel
+title: @keosariel
 url: https://keosariel.github.io
 paginate: 1
 baseurl: ""
@@ -9,7 +9,7 @@ permalink: pretty
 plugins:
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-seo-tag
+#  - jekyll-seo-tag
 
 # Optimize Jekyll
 exclude:
