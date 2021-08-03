@@ -1,6 +1,6 @@
 # Setup
-title: Dark Poole
-url: https://getpoole.com
+title: keosariel
+url: https://keosariel.github.io
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -32,9 +32,9 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: kenneth Gabriel
+  url: https://twitter.com/keosariel
+  email: kennethgabriel78@gmail.com
 
 # Custom vars
 version: 3.0.0
@@ -43,6 +43,9 @@ version: 3.0.0
 nav:
   - title: Blog
     url: /archive
+   
+  - title: Projects
+    url: /projects
 
   - title: About
     url: /about
