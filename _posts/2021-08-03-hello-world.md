@@ -28,3 +28,5 @@ So here I'd write about my thoughts and ideas, things Iâ€™m working on, stuff Iâ
 -----
 
 Thanks for reading this far!
+
+For comments or questions, feel free to ask me on [GitHub](http://www.github.com/keosariel), on [Twitter](http://www.twitter.com/keosariel) or via email at kennethgabriel78@gmail.com.
