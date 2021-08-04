@@ -1,35 +1,40 @@
-**[Health Report App Api](https://github.com/keosariel/health-report-api-project)**
+### Health Report App Api
 
 An API for a health report app where patience can make complaints and doctors reply with a instruction to what they should do.
 
-[API DOCUMENTATION](https://documenter.getpostman.com/view/14039622/TzeTKVio)
+[API Documentation](https://documenter.getpostman.com/view/14039622/TzeTKVio)
+
+[View Repo](https://github.com/keosariel/health-report-api-project)
 
 -----
 
-**[Linktree API](https://github.com/keosariel/Linktree-API)**
+### Linktree API Implementation
 
 An implementation of the Linktree-API.
 
-API DOCUMENTATION: comming soon...
+[View Repo](https://github.com/keosariel/Linktree-API)
 
 -----
 
-**[Flask JSONValidator](https://github.com/keosariel/flask_jsonvalidator)**
+### Flask JSONValidator
 
 This is a project that was created in solving a problem I had while building API's, which is
 validating JSON data been sent with a requests and returning nice and readable errors.
 
 [A little documentation](https://github.com/keosariel/flask_jsonvalidator#readme)
 
+[View Repo](https://github.com/keosariel/flask_jsonvalidator)
+
 -----
 
-**[Sqlite index](https://github.com/keosariel/sqlite-index)**
+### Sqlite index
 
 A simple means to Index and search data in a sqlite database.
 
+[View Repo](https://github.com/keosariel/sqlite-index)
 -----
 
-**[Nairathreads](https://github.com/keosariel/nairathreads)**
+### Nairathreads
 
 ![Nairathreads image demo](https://github.com/keosariel/nairathreads/raw/master/sample.png)
 
@@ -37,9 +42,10 @@ This is a simple implementation of lobste.rs, it's simply a community centered a
 
 [DEMO](nairathreads.herokuapp.com/top)
 
------
+[View Repo](https://github.com/keosariel/nairathreads)
 
-**[Toy Programming Language](https://github.com/keosariel/Programming-language-in-python-using-llvmlite)**
+-----
+### Toy Programming Language
 
 This is a compiler for a language, built with Python 3.6 and the LLVM framework using the llvmlite library.
 
@@ -54,10 +60,14 @@ see [mandelbrot set](https://github.com/keosariel/Programming-language-in-python
 
 [more examples](https://github.com/keosariel/Programming-language-in-python-using-llvmlite/tree/main/test).
 
+[View Repo](https://github.com/keosariel/Programming-language-in-python-using-llvmlit)
+
 -----
 
-**[Third Party Commenting System (disqus clone)](https://github.com/keosariel/disqus-hackernews-commenting-clone)**
+### Third Party Commenting System (disqus clone)
 
 ![disqus clone demo gif](https://github.com/keosariel/disqus-hackernews-commenting-clone/raw/master/disqus-clone-demo.gif)
 
 An anonymous third party commenting system.
+
+[View Repo](https://github.com/keosariel/disqus-hackernews-commenting-clone)
