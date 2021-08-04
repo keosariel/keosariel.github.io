@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+published: true
 ---
 
 Here are some of the projects have worked on!
@@ -50,7 +51,7 @@ A simple means to Index and search data in a sqlite database.
 
 This is a simple implementation of lobste.rs, it's simply a community centered around link aggregation and discussion.
 
-[DEMO](nairathreads.herokuapp.com/top)
+[DEMO](https://nairathreads.herokuapp.com/top)
 
 [View Repo](https://github.com/keosariel/nairathreads)
 
