@@ -8,7 +8,7 @@ Over the years, when starting to learn a new language it's a convention that you
 
 -----
 
-Hello, I'm kenneth gabriel (@keosariel) and I'm a software engineer mainly focusing on building APIs. I live in Lagos, Nigeria and I mostly work remotely. I'm currently using Python as my preferred language and I've been programming in python for the past 6yrs (4yrs professionally). I consider myself a reasonably experienced web developer with a particular interest in building **fast**, **secured** and well **documented** APIs. 
+Hello, I'm kenneth gabriel (@keosariel) and I'm a software engineer mainly focusing on building APIs. I live in Lagos, Nigeria and I mostly work remotely. I'm currently using Python as my preferred language and I've been programming in python for 4yrs professionally. I consider myself a reasonably experienced web developer with a particular interest in building **fast**, **secured** and well **documented** APIs. 
 
 That's enough of me, now the reason for creating/starting this blog...
 
