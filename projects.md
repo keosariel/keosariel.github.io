@@ -1,3 +1,8 @@
+---
+layout: page
+title: Projects
+---
+
 Here are some of the projects have worked on!
 
 -----
