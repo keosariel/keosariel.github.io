@@ -1,4 +1,4 @@
-## Projects
+Here are some of the projects have worked on!
 
 ### Health Report Api
 
@@ -50,6 +50,7 @@ This is a simple implementation of lobste.rs, it's simply a community centered a
 ### Toy Programming Language
 
 This is a compiler for a language, built with Python 3.6 and the LLVM framework using the llvmlite library.
+I wrote this during my early stage of programming, when I need to understand the inner workings of compilers.
 
 #### Features
 
