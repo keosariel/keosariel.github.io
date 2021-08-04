@@ -18,14 +18,6 @@ An API for a health report app where patience can make complaints and doctors re
 
 -----
 
-### Linktree API Implementation
-
-An implementation of the Linktree-API.
-
-[View Repo](https://github.com/keosariel/Linktree-API)
-
------
-
 ### Flask JSONValidator
 
 This is a project that was created in solving a problem I had while building API's, which is
