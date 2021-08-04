@@ -2,7 +2,7 @@
 title: keosariel
 url: https://keosariel.github.io
 paginate: 1
-baseurl: "/archive"
+baseurl: ""
 permalink: pretty
 
 # Gems
