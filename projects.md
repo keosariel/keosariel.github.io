@@ -1,6 +1,8 @@
 
 Here are some of the projects have worked on!
 
+-----
+
 ### Health Report Api
 
 An API for a health report app where patience can make complaints and doctors reply with a instruction to what they should do.
@@ -35,6 +37,7 @@ validating JSON data been sent with a requests and returning nice and readable e
 A simple means to Index and search data in a sqlite database.
 
 [View Repo](https://github.com/keosariel/sqlite-index)
+
 -----
 
 ### Nairathreads
