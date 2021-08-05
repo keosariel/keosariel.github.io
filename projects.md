@@ -6,6 +6,18 @@ published: true
 
 Here are some of the projects have worked on!
 
+### Github repo info API
+
+Gets github repo's basic information
+
+![Demo](https://github.com/keosariel/Github-repo-info-API/blob/master/github-repo-info-sample.gif)
+
+[Live demo](https://github-repos-info.herokuapp.com/)
+
+[View repo](https://github.com/keosariel/Github-repo-info-API)
+
+
+
 -----
 
 ### Health Report Api
