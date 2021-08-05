@@ -16,8 +16,6 @@ Gets github repo's basic information
 
 [View repo](https://github.com/keosariel/Github-repo-info-API)
 
-
-
 -----
 
 ### Health Report Api
