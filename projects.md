@@ -10,7 +10,7 @@ Here are some of the projects have worked on!
 
 Gets github repo's basic information
 
-![Demo](https://github.com/keosariel/Github-repo-info-API/blob/master/github-repo-info-sample.gif)
+![Demo](https://github.com/keosariel/Github-repo-info-API/raw/master/github-repo-info-sample.gif)
 
 [Live demo](https://github-repos-info.herokuapp.com/)
 
