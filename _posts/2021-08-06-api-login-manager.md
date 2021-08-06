@@ -1,6 +1,7 @@
 ---
-published: false
-title: A simple login manager for your api
+published: true
+title: A simple login manager for your API
+layout: post
 ---
 Here's a simple implementation of the `login_required` function
 for your flask api.
