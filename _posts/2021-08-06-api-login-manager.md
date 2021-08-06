@@ -10,7 +10,7 @@ Firstly, we'd a means of authentication and I'd be using
 `Authorization: Bearer Token` as my means of authorization and 
 `JWT` (JSON web token) to encrypt certain data or in this case create access tokens.
 
-```
+{% highlight py %}
 # -*- coding: utf-8 -*-
 # login_manager.py
 
@@ -110,9 +110,7 @@ class APILoginManager(object):
 			raise NotImplemented("No `id` attribute")
 
 		return self.encode_token(user_id, minutes)
-
-
-```
+{% endhighlight %}
 
 The `decode_token` and `encode_token` property functions are simply used to **decode** end **encode**
 payloads respectively using JWT (JSON Web Tokens). From the code you'd understand that we can set a age limit (when the token would expire) for an access token.
