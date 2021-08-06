@@ -1,6 +1,6 @@
 ---
 published: true
-title: A simple login manager for your API
+title: A simple login manager for your Flask API
 layout: post
 ---
 Here's a simple implementation of the `login_required` function
@@ -118,7 +118,7 @@ payloads respectively using JWT (JSON Web Tokens). From the code you'd understan
 However, we'd need a decorator function to utilize the class above. Here would call
 this function `login_required`.
 
-```
+{% highlight py %}
 # utils.py
 
 from flask import (
@@ -165,7 +165,7 @@ def login_required(func):
 		), 401
 
 	return decorator
-```
+{% endhighlight %}
 
 [Here](https://github.com/keosariel/api-login-manager/blob/master/README.md) is an example to test our little [login manager](https://github.com/keosariel/api-login-manager).
 
