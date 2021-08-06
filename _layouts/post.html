@@ -1,11 +1,15 @@
 ---
 layout: default
+published: true
 ---
 
 <article class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
   {{ content }}
+  <hr>
+  <p>Thanks for reading this far!</p>
+  <p>For comments or questions, feel free to ask me on <a href="http://www.github.com/keosariel">GitHub</a>, on <a href="http://www.twitter.com/keosariel">Twitter</a> or via email at kennethgabriel78@gmail.com.</p>
 </article>
 
 {% if site.related_posts != empty %}
