@@ -6,6 +6,8 @@ published: true
 
 Here are some of the projects have worked on!
 
+-----
+
 ### Github repo info API
 
 Gets github repo's basic information
