@@ -25,8 +25,3 @@ The writeups above were referenced from a person ([Aaron Swartz](https://en.wiki
 
 So here I'd write about my thoughts and ideas, things I’m working on, stuff I’ve read, experiences I’ve had, and definitly talk about python and probably few tutorials and explanations of the inner workings of several softwares and so on. 
 
------
-
-Thanks for reading this far!
-
-For comments or questions, feel free to ask me on [GitHub](http://www.github.com/keosariel), on [Twitter](http://www.twitter.com/keosariel) or via email at kennethgabriel78@gmail.com.
