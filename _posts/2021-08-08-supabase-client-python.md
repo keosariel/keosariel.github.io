@@ -124,6 +124,27 @@ error, results = await (
 
 -----
 
+## Filters
+{% highlight py %}
+# Note: inside an async function
+error, results = await (
+     supabase.table("cities")
+     .select("*")
+    # Filters
+    # .eq('column', 'Equal to')
+    # .gt('column', 'Greater than')
+    # .lt('column', 'Less than')
+    # .gte('column', 'Greater than or equal to')
+    # .lte('column', 'Less than or equal to')
+    # .like('column', '%CaseSensitive%')
+    # .ilike('column', '%CaseInsensitive%')
+    # .neq('column', 'Not equal to')
+    .query()
+)
+{% endhighlight %}
+
+-----
+
 ## Inserting Data
 
 ### Create data: `insert()`
@@ -200,4 +221,3 @@ error, result = await (
 ### Parameters
 target required `dict`
 The column to delete.
-
