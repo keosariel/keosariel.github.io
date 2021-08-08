@@ -4,7 +4,7 @@ title: 'Supabase client, python implementation (Documentation)'
 layout: post
 ---
 
-The supabase client library is modular. This sub-library is a standalone implementation for a single external system. This is one of the ways it supports existing tools.
+The [supabase](https://supabase.io/) client library is modular. This sub-library is a standalone implementation for a single external system. This is one of the ways it supports existing tools.
 
 [View repo: https://github.com/keosariel/supabase-client](https://github.com/keosariel/supabase-client)
 
