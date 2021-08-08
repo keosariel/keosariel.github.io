@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Supabase-client python implementation (Documentation)
 layout: post
 ---
