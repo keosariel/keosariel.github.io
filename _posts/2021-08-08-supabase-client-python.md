@@ -36,7 +36,7 @@ No description provided.
 
 ### Examples
 
-{%%}
+{% highlight py %}
 # requirement: pip install python-dotevn
 from supabase_client import Client
 from dotenv import dotenv_values
@@ -46,10 +46,10 @@ supabase = Client(
 	api_url=config.get("SUPABASE_URL"),
 	api_key=config.get("SUPABASE_KEY")
 )
-{%%}
+{% endhighlight %}
 
 ### With additional parameters
-{%%}
+{% highlight py %}
 # requirement: pip install python-dotevn
 from supabase_client import Client
 from dotenv import dotenv_values
@@ -64,7 +64,7 @@ supabase = Client(
         "Content-Type": "application/json"
     }
 )
-{%%}
+{% endhighlight %}
 
 -----
 
@@ -86,5 +86,80 @@ The columns to retrieve, separated by commas.
 
 ### Examples
 Getting your data
+
+{% highlight py %}
+# Note: inside an async function
+error, results = await (
+     supabase.table("cities")
+     .select("*")
+     .query()
+)
+{% endhighlight %}
+
+### Selecting specific columns
+You can select specific fields from your tables.
+
+{% highlight py %}
+# Note: inside an async function
+error, results = await (
+     supabase.table("cities")
+     .select("name")
+     .query()
+)
+{% endhighlight %}
+
+### Adding limits `range()`
+You can select specific fields from your tables.
+
+{% highlight py %}
+# Note: inside an async function
+error, results = await (
+     supabase.table("cities")
+     .select("name")
+     .range(0,10)
+     .query()
+)
+{% endhighlight %}
+
+-----
+
+## Inserting Data
+
+### Create data: `insert()`
+
+{% highlight py %}
+error, result = await (
+      supabase.table("cities")
+      .insert([{"name": "The Shire", "country_id": 554}])
+)
+{% endhighlight %}
+
+### Parameters
+data required `list`
+The values to insert.
+
+-----
+
+## Examples
+### Create a record
+
+{% highlight py %}
+error, result = await (
+      supabase.table("cities")
+      .insert([{"name": "The Shire", "country_id": 554}])
+)
+{% endhighlight %}
+
+### Bulk create
+
+{% highlight py %}
+error, result = await (
+      supabase.table("cities")
+      .insert([
+      	{ name: 'The Shire', country_id: 554 },
+    	{ name: 'Rohan', country_id: 555 }
+    ])
+)
+{% endhighlight %}
 
 
