@@ -1,6 +1,7 @@
 ---
 published: false
 title: Supabase-client python implementation (Documentation)
+layout: post
 ---
 Our client library is modular. Each sub-library is a standalone implementation for a single external system. This is one of the ways we support existing tools.
 
