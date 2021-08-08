@@ -10,7 +10,7 @@ The supabase client library is modular. This sub-library is a standalone impleme
 -----
 
 <p class="message">
-  Note: This documentation basically mirros the <a style="color: black" href="https://supabase.io/docs/reference/javascript/installing">supabase javascript client's doc</a>
+  Note: This documentation basically mirros the <a style="color: var(--gray-900)" href="https://supabase.io/docs/reference/javascript/installing">supabase javascript client's doc</a>
 </p>
 
 ## Installation
