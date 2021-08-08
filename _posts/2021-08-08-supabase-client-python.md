@@ -75,12 +75,12 @@ supabase = Client(
 
 ## Reading Data
 
-### select()
+### Fetch data `select()`
 
 Performs vertical filtering with SELECT.
 
 ### Parameters
-val required `string`
+**val** required `string`
 The columns to retrieve, separated by commas.
 
 **Notes:**
@@ -161,7 +161,7 @@ error, result = await (
 {% endhighlight %}
 
 ### Parameters
-data required `list`
+**data** required `list`
 The values to insert.
 
 -----
@@ -204,10 +204,10 @@ error, result = await (
 {% endhighlight %}
 
 ### Parameters
-target required `dict`
+**target** required `dict`
 The column to update.
 
-data required `dict`
+**data** required `dict`
 The new values
 
 -----
@@ -223,5 +223,5 @@ error, result = await (
 {% endhighlight %}
 
 ### Parameters
-target required `dict`
+**target** required `dict`
 The column to delete.
