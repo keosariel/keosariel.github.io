@@ -9,6 +9,10 @@ Our client library is modular. Each sub-library is a standalone implementation f
 
 -----
 
+<p class="message">
+  Note: This documentation basically mirros the [supabase javascript client's doc](https://supabase.io/docs/reference/javascript/installing)
+</p>
+
 ## Installation
 To install Supabase-Client, simply execute the following command in a terminal:
 
