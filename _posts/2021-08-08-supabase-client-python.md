@@ -146,7 +146,7 @@ The values to insert.
 {% highlight py %}
 error, result = await (
       supabase.table("cities")
-      .insert([{"name": "The Shire", "country_id": 554}])
+      .insert([{'name': 'The Shire', 'country_id': 554}])
 )
 {% endhighlight %}
 
@@ -156,10 +156,47 @@ error, result = await (
 error, result = await (
       supabase.table("cities")
       .insert([
-      	{ name: 'The Shire', country_id: 554 },
-    	{ name: 'Rohan', country_id: 555 }
+      	{ 'name': 'The Shire', 'country_id': 554 },
+    	{ 'name': 'Rohan', 'country_id': 555 }
     ])
 )
 {% endhighlight %}
 
+-----
+
+## Modify data: `update()`
+Performs an UPDATE on the table.
+
+{% highlight py %}
+error, result = await (
+      supabase.table("cities")
+      .update(
+      	{ 'name': 'Auckland' }, # Selection
+      	{ 'name': 'Middle Earth' } # Update
+      )
+)
+{% endhighlight %}
+
+### Parameters
+target required `dict`
+The column to update.
+
+data required `dict`
+The new values
+
+-----
+
+## Delete data: `delete()`
+Performs a DELETE on the table.
+
+{% highlight py %}
+error, result = await (
+      supabase.table("cities")
+      .delete({ 'name': 'Middle Earth' })
+)
+{% endhighlight %}
+
+### Parameters
+target required `dict`
+The column to delete.
 
