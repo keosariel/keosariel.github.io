@@ -27,14 +27,14 @@ You can initialize a new Supabase client using the Client() method.
 
 The Supabase client is your entrypoint to the rest of the Supabase functionality and is the easiest way to interact with the Supabase ecosystem.
 
-Parameters:
-api_url required `string`
+### Parameters:
+**api_url** required `string`
 The unique Supabase URL which is supplied when you create a new project in your project dashboard.
 
-api_key required `string`
+**api_key** required `string`
 The unique Supabase Key which is supplied when you create a new project in your project dashboard.
 
-headers optional `Dictionary`
+**headers** optional `Dictionary`
 No description provided.
 
 ----
