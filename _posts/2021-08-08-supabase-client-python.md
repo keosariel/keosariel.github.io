@@ -10,7 +10,7 @@ Our client library is modular. Each sub-library is a standalone implementation f
 -----
 
 <p class="message">
-  Note: This documentation basically mirros the [supabase javascript client's doc](https://supabase.io/docs/reference/javascript/installing)
+  Note: This documentation basically mirros the <a href="https://supabase.io/docs/reference/javascript/installing">supabase javascript client's doc</a>
 </p>
 
 ## Installation
