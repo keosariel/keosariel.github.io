@@ -8,6 +8,15 @@ Here are some of the projects have worked on!
 
 -----
 
+### Supabase Client
+
+The [supabase](https://supabase.io/) client library is modular. This sub-library is a standalone implementation for a single external system. This is one of the ways it supports existing tools.
+![supabase](https://raw.githubusercontent.com/supabase/supabase/master/web/static/supabase-light-rounded-corner-background.svg)
+[View repo:](https://github.com/keosariel/supabase-client)
+[Documentation:](https://keosariel.github.io/2021/08/08/supabase-client-python/)
+
+-----
+
 ### Github repo info API
 
 Gets github repo's basic information
