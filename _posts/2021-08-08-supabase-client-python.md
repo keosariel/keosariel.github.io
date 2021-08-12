@@ -109,7 +109,7 @@ error, results = await (
 )
 {% endhighlight %}
 
-### Adding limits: `range()`
+### Adding limits: `limit()`
 You can limit the amount of data been recievied.
 
 {% highlight py %}
@@ -117,7 +117,7 @@ You can limit the amount of data been recievied.
 error, results = await (
      supabase.table("cities")
      .select("name")
-     .range(0,10)
+     .limit(10)
      .query()
 )
 {% endhighlight %}
