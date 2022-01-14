@@ -7,6 +7,31 @@ Well, python is a very popular language and so are many web frameworks by inheri
 
 When it comes to web development, many web framework provide very similar feature and in some sense you can say they all provide the same features, but come do better in some areas than others. This may be security, ORMs, Template managers and project management. However, these libraries provide very similar syntax which makes it easy for you to switch between frameworks.
 
-Example
+### Examples
 
-Flask app
+#### Flask
+
+{% highlight py %}
+from flask import Flask
+ 
+app = Flask(__name__)
+  
+@app.route('/')
+def hello_world():
+    return 'Hello World'
+  
+if __name__ == '__main__':
+    app.run()
+{% endhighlight %}
+
+#### FastAPI
+
+{% highlight py %}
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def root():
+    return {"message": "Hello World"}
+{% endhighlight %}
