@@ -44,5 +44,4 @@ app = Application()
 @app.route("/")
 def hello_world():
     return f"Hello, World!"
-
 {% endhighlight %}
