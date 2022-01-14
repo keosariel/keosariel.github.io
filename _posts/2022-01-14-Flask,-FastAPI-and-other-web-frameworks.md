@@ -7,6 +7,8 @@ Well, python is a very popular language and so are many web frameworks by inheri
 
 When it comes to web development, many web framework provide very similar feature and in some sense you can say they all provide the same features, but come do better in some areas than others. This may be security, ORMs, Template managers and project management. However, these libraries provide very similar syntax which makes it easy for you to switch between frameworks.
 
+-----
+
 ### Examples
 
 #### Flask
@@ -46,3 +48,11 @@ def hello_world():
     return f"Hello, World!"
 {% endhighlight %}
 
+------
+
+I think with a little experience in web developement you'd understand that the programs above produce
+very similar outputs. But what make one web framework better than the other?
+
+**Note: These are my opinions**
+
+Firstly, when building a website with any framework 
