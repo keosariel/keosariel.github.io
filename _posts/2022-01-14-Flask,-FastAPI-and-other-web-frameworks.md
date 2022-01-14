@@ -18,10 +18,8 @@ app = Flask(__name__)
   
 @app.route('/')
 def hello_world():
-    return 'Hello World'
-  
-if __name__ == '__main__':
-    app.run()
+    return 'Hello World!'
+
 {% endhighlight %}
 
 #### FastAPI
@@ -32,6 +30,19 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/")
-def root():
-    return {"message": "Hello World"}
+def hello_world():
+    return {"message": "Hello World!"}
+{% endhighlight %}
+
+#### Blacksheep
+
+{% highlight py %}
+from blacksheep.server import Application
+
+app = Application()
+
+@app.route("/")
+def hello_world():
+    return f"Hello, World!"
+
 {% endhighlight %}
