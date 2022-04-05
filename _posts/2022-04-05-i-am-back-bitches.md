@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: I am back bitches!
 ---
@@ -12,4 +12,3 @@ Besides that, when I created this blog it was really to just document my project
 -----
 
 However, I think memories can be kept when you write and not just taking pictures of moments but [clicking your keys to whatever note you mind feels is right]. We grow everyday, which means we gain new experiences and things happen and affects the way we think, I'd really love to come back to my blogs and read them over and over and see how my thinking has changed over time.
-
