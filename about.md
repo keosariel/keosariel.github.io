@@ -15,6 +15,8 @@ contact me on [twitter](http://www.twitter.com/keosariel), [github](http://www.g
 
 -----
 
+check out my news aggregation [nairagazer](https://www.nairagazer.com) and clustering site, just like techmeme.
+
 ### Some Projects
 
 ##### Solidity (web3)
