@@ -30,8 +30,8 @@ check out my news aggregation [nairagazer](https://www.nairagazer.com) and clust
 ##### Python
 
 - [`supabase`](https://github.com/keosariel/supabase-client): client library is modular. This sub-library is a standalone implementation for a single external system. This is one of the ways it supports existing tools.
-- [`linktree-api`](https://github.com/keosariel/Linktree-API),[`api docs`](https://documenter.getpostman.com/view/14039622/Tzsik4P8): A simple implementation of the Linktree-API
-- [`nairathreads`](https://github.com/keosariel/nairathreads),[`demo`](https://nairathreads.herokuapp.com/top) : This is a simple implementation of lobste.rs, it's simply a community centered around link aggregation and discussion.
+- [`linktree-api`](https://github.com/keosariel/Linktree-API), [`api docs`](https://documenter.getpostman.com/view/14039622/Tzsik4P8): A simple implementation of the Linktree-API
+- [`nairathreads`](https://github.com/keosariel/nairathreads), [`demo`](https://nairathreads.herokuapp.com/top) : This is a simple implementation of lobste.rs, it's simply a community centered around link aggregation and discussion.
 - [`toy-language`](https://github.com/keosariel/Programming-language-in-python-using-llvmlite): This is a compiler for a language, built with Python 3.6 and the LLVM framework using the llvmlite library. Examples: [`mandelbrot set`](https://github.com/keosariel/Programming-language-in-python-using-llvmlite/blob/main/test/mandelbrot_set.test), [`factorial`](https://github.com/keosariel/Programming-language-in-python-using-llvmlite/blob/main/test/fact.test)
 - [`disqus-clone`](https://github.com/keosariel/disqus-hackernews-commenting-clone) : An anonymous third party commenting system. see [demo-gif](https://github.com/keosariel/disqus-hackernews-commenting-clone/raw/master/disqus-clone-demo.gif)
 - api wrappers: [`lazerpay-sdk`](https://github.com/keosariel/lazerpay-py-sdk) and [`sendchamp-py`](https://github.com/keosariel/sendchamp-py)
