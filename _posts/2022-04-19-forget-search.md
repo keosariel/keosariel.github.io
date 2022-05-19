@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: forget search
+title: Forget Search
 ---
 ## Forget Search
 
