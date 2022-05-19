@@ -1,10 +1,8 @@
 ---
 published: true
-title: my divorce contract is smart
+title: My divorce contract is smart
 layout: post
 ---
-## My Divorce Contract is Smart
-
 Few months into solidity, I'd walk you through my divorce smart contract. The contract simply needs both parties to agree on how the money in the contract would be shared when both parties have signed on the divorce.
 
 Firstly, to initialize the contract we'd need two addresses, the husband's and wife's address and the percentage the wife would take whey they agree to split.
