@@ -7,7 +7,7 @@ layout: post
 
 [@Spotlyt](https://twitter.com/spotlythq) says "Hello, World".
 
-Spotlyt is a developer first hosted search API platform aiming to simplify building a search infrastructure for anyone be it a lone developer, startup or an enterprise and also deliver amazing search results. You'd literally forget the complexity of search.
+Spotlyt is a developer first hosted search API platform aiming to simplify building a search infrastructure for anyone, be it a lone developer, startup or an enterprise and also deliver amazing search results. You'd literally forget the complexity of search.
 
 We've seen a lot players in the space already, the likes of [elastic search](https://www.elastic.co/), [typesense](https://typesense.org/), and [algolia](https://www.algolia.com/) e.t.c These guys are really go at their suff no doubt and they provide good experience to their secondary consumers.
 
