@@ -3,7 +3,7 @@ published: true
 title: Introducing Spotlyt
 layout: post
 ---
-![Spotlyt]({{site.baseurl}}/_posts/Cover (1).png)
+![Spotlyt](https://github.com/keosariel/keosariel.github.io/blob/master/_posts/Cover%20(1).png?raw=true)
 
 [@Spotlyt](https://twitter.com/spotlythq) says "Hello, World".
 
