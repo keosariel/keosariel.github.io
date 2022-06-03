@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Introducing Spotlyt
 layout: post
 ---
