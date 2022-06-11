@@ -22,9 +22,9 @@ SPELL_CHECK = 0x0008          # 01000 or 8
 ...and here is what the configuration would look like when submitted through the API.
 
 ```py
-# config.py - python 
+# json
 
-data = {
+{
     'synonyms': <boolean>,
     'stem_tokens': <boolean>,
     'remove_stopwords': <boolean>,
