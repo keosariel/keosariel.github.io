@@ -15,8 +15,6 @@ contact me on [twitter](http://www.twitter.com/keosariel), [github](http://www.g
 
 -----
 
-check out my news aggregation  and clustering site, just like techmeme.
-
 ### Side Projects
 
 - [nairagazer](https://www.nairagazer.com): nairagazer is an auto-generated summary of the stories that Nigerian commentators are discussing online right now.
