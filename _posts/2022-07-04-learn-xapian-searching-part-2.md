@@ -113,12 +113,3 @@ def get_query_parser(default_op=xapian.Query.OP_AND):
 
 pprint.pprint(search("python"))
 ```
-
-
-
-
-
-
-
-
-
