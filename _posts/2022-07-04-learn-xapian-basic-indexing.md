@@ -82,7 +82,7 @@ database = xapian.WritableDatabase("hn_index", xapian.DB_CREATE_OR_OPEN)
 + termgenerator.set_stemmer(stemmer)
 ```
 
-Now after we've set up the `termgenerator` we need to index data and store them. In xapian data are seen as documents: `xapian.Document` so we'd be indexing using documents and termgenerators together. 
+Now after we've set up the `termgenerator` we need to index data and store them. In xapian, data are seen as documents (`xapian.Document`), so we'd be indexing using documents and termgenerators together. 
 
 Also, we'd need to specify the fields we'd be indexing.
 
@@ -146,7 +146,6 @@ slots[id] = max(slots.values()) + 1
 +     for field in searchables:
 +         value = post.get(field)
 +         if value:
-+             value = value.lower().strip()
 +             field_prefix = "X"+field.upper()
 +             termgenerator.index_text(value, slots[field], field_prefix)
 +             termgenerator.index_text(value)
