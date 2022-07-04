@@ -1,6 +1,9 @@
 ---
-published: false
+layout: post
+published: true
+title: 'learn xapian: faceting part 3'
 ---
+
 Facets are a way to add specific, relevant options to search results. Think of it as a way to narrow down a search query, and being more specific on where your search should be executed. In the case of hackernews posts, when you decide to make a search query and you want only results from paul graham, you'd just specify that you only want search results from paul graham (pg on hackernews).
 
 <p class="message">
