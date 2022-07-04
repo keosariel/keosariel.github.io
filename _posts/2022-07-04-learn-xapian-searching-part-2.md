@@ -6,7 +6,7 @@ layout: post
 We currently have a database populated with some hackernews posts, it is really not helpful if we don't implement the code to search the database and display results.
 
 <p class="message">
-  Note: keep in mind this is a continuation of my last article on searching you should <a href="https://keosariel.github.io/2022/07/04/learn-xapian-basic-indexing-part-1/">check it out</a> before continuing.
+  Note: keep in mind this is a continuation of my last article on indexing, you should <a href="https://keosariel.github.io/2022/07/04/learn-xapian-basic-indexing-part-1/">check it out</a> before continuing.
 </p>
 
 ## Queries in xapian
