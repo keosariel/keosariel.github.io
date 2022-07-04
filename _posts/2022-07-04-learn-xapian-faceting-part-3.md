@@ -7,7 +7,7 @@ title: 'learn xapian: faceting part 3'
 Facets are a way to add specific, relevant options to search results. Think of it as a way to narrow down a search query, and being more specific on where your search should be executed. In the case of hackernews posts, when you decide to make a search query and you want only results from paul graham, you'd just specify that you only want search results from paul graham (pg on hackernews).
 
 <p class="message">
-  Note: keep in mind this is a continuation of my last article on searching you should [check it out](https://keosariel.github.io/2022/07/04/learn-xapian-basic-indexing-part-1/) before continuing.
+  Note: keep in mind this is a continuation of my last article on searching you should <a href="https://keosariel.github.io/2022/07/04/learn-xapian-searching-part-2/">check it out</a> before continuing.
 </p>
 
 So how do we implement this Faceting Search? facets in Xapian is based on a technique referred to as boolean filtering (and hence those prefixed terms are called boolean terms). A little of the concept was introduced, well not literally in [part 1 of this series: learn xapian basic indexing part 1
