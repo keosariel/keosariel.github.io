@@ -35,11 +35,11 @@ Now, an index has been created the next thing is to index data. So, I have prepa
 import xapian
 + import json
 
-+ with open("./hn_index", "r") as fp:
++ with open("./hn_2014.json", "r") as fp:
 +     hn_posts = json.load(fp)
 
 # create a new database or open available database in the current directory
-database = xapian.WritableDatabase("hn_index", xapian.DB_CREATE_OR_OPEN)
+database = xapian.WritableDatabase("./hn_index", xapian.DB_CREATE_OR_OPEN)
 ```
 Here I have an example of a hacker news post so you'd see how the data would be indexed.
 
@@ -71,11 +71,11 @@ In xapian there's a bunch of tools to get these results with ease, and it'd be t
 import xapian
 import json
 
-with open("./hn_index", "r") as fp:
+with open("./hn_2014.json", "r") as fp:
     hn_posts = json.load(fp)
 
 # create a new database or open available database in the current directory
-database = xapian.WritableDatabase("hn_index", xapian.DB_CREATE_OR_OPEN)
+database = xapian.WritableDatabase("./hn_index", xapian.DB_CREATE_OR_OPEN)
 
 + termgenerator = xapian.TermGenerator()
 + stemmer = xapian.Stem("english")
@@ -92,7 +92,7 @@ Also, we'd need to specify the fields we'd be indexing.
 import xapian
 import json
 
-with open("./hn_index", "r") as fp:
+with open("./hn_2014.json", "r") as fp:
     hn_posts = json.load(fp)
 
 # create a new database or open available database in the current directory
@@ -122,11 +122,11 @@ With the infomation above, he's a practical example of how we'd implement it.
 import xapian
 import json
 
-with open("./hn_index", "r") as fp:
+with open("./hn_2014.json", "r") as fp:
     hn_posts = json.load(fp)
 
 # create a new database or open available database in the current directory
-database = xapian.WritableDatabase("hn_index", xapian.DB_CREATE_OR_OPEN)
+database = xapian.WritableDatabase("./hn_index", xapian.DB_CREATE_OR_OPEN)
 
 termgenerator = xapian.TermGenerator()
 stemmer = xapian.Stem("english")
