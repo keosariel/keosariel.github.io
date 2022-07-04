@@ -1,5 +1,7 @@
 ---
-published: false
+published: true
+title: birthday boy
+layout: post
 ---
 Sincerely, I've forgotten you guys and also forgot to tell you my birthday was yesterday. Even if I know no one reads this, I still feel the need to let myself or anyone that might read it later know how my birthday went.
 
