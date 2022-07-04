@@ -13,7 +13,7 @@ I think the [Xapian's tutorial](https://getting-started-with-xapian.readthedocs.
 
 So, in this series we'd create a good new search engine for [hackernews](https://news.ycombinator.com/) very similar to the [algolia search engine](https://hn.algolia.com/) for hakernews.
 
-##### Creating an index
+### Creating an index
 
 We'd create a database using the `xapian.WritableDatabase` taking 2 arguements `database_path`, `xapian_flag`. In this example we'd name the index `hn_index` and would use the xapian flag `xapian.DB_CREATE_OR_OPEN` which simply states: create a new index if `hn_index` does not exists else open and use the index `hn_index`. So this is what it'd look like in code.
 
@@ -59,7 +59,7 @@ Here I have an example of a hacker news post so you'd see how the data would be 
 From the data above you'd realize how it can be searched, we can index fields like `title` and `author` and make them searchable and also the fields `numComments` and `points` sortable fields.
 
 
-##### Indexing data
+### Indexing data
 
 We'd need a means to tokenize string of texts i.e turning `"gabriel is writing a good documentation"` to `["gabriel", "is", "writing", "a", "good", "documentation"]`. Also we'd need to stem text fields which is good for searching i.e turing `["gabriel", "is", "writing", "a", "good", "documentation"]` to `["gabriel", "is", "write", "a", "good", "document"]`. This way when someone queries for `"searching"` you'd also get results for `"search"`. As [wikipedia](https://en.wikipedia.org/wiki/Stemming) puts it "stemming is the process of reducing inflected (or sometimes derived) words to their word stem, base or root form".
 
@@ -110,7 +110,7 @@ termgenerator.set_stemmer(stemmer)
 + slots[id] = max(slots.values()) + 1
 ```
 
-###### Fields and term prefixes
+#### Fields and term prefixes
 
 Xapian supports a convention for representing fields in the database by mapping each field to a term prefix, which are one or more capital letters; this is to avoid confusion (which could adversely affect search results) with normal terms generated from words, which are lowercased by the Term Generator. Prefixes make it easy to narrow your query and there are conventional prefixes
 
