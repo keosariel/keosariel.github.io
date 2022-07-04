@@ -7,7 +7,7 @@ Xapian is a free and open-source C++ probabilistic information retrieval library
 
 Compared with other information retrieval on the market, Xapian is similar to [Lucene](https://lucene.apache.org/), providing a rich and extensible programming interface, allowing Xapian to better integrate into your system. At the same time, its retrieval performance is much higher than that of Lucene, and the [BM-25](https://xapian.org/docs/bm25.html) model is adopted, which has better retrieval effect.
 
-So, this article would be the first of a 3 series. Basically making it easy for anyone to learn to use the xapian library in python and implement a good search for an application. Also it'd be of help if you understand or is familar with [Term Frequency-inverse document frequency (TF-IDF)](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) and weighting schemes like [BM25](https://xapian.org/docs/bm25.html).
+So, this article would be the first of a 4 series. Basically making it easy for anyone to learn to use the xapian library in python and implement a good search for an application. Also it'd be of help if you understand or is familar with [Term Frequency-inverse document frequency (TF-IDF)](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) and weighting schemes like [BM25](https://xapian.org/docs/bm25.html).
 
 I think the [Xapian's tutorial](https://getting-started-with-xapian.readthedocs.io/en/latest/index.html) is documented properly and easy to understand. I have been using xapian for a while now and I think a little more details on certain concepts wasn't explored too well. I also have the mentality of learning while writing, so I can write this series of articles. 
 
