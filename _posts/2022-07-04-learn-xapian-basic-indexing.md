@@ -139,27 +139,27 @@ id = "objectId"
 slots = {x: i for i, x in enumerate(searchables, 1)}
 slots[id] = max(slots.values()) + 1
 
-for post in hn_posts:
-    doc = xapian.Document()
-    termgenerator.set_document(doc)
++ for post in hn_posts:
++     doc = xapian.Document()
++     termgenerator.set_document(doc)
 
-    for field in searchables:
-        value = post.get(field)
-        if value:
-            value = value.lower().strip()
-            field_prefix = "X"+field.upper()
-            termgenerator.index_text(value, slots[field], field_prefix)
-            termgenerator.index_text(value)
++     for field in searchables:
++         value = post.get(field)
++         if value:
++             value = value.lower().strip()
++             field_prefix = "X"+field.upper()
++             termgenerator.index_text(value, slots[field], field_prefix)
++             termgenerator.index_text(value)
     
-    # Storing the data for display purposes
-    doc.set_data(json.dumps(post, ensure_ascii=True))
++     # Storing the data for display purposes
++     doc.set_data(json.dumps(post, ensure_ascii=True))
 	
-    # Unique id for the current document with prefix `Q`
-    idterm = u"Q" + str(post[id])
-    doc.add_boolean_term(idterm)
++     # Unique id for the current document with prefix `Q`
++     idterm = u"Q" + str(post[id])
++     doc.add_boolean_term(idterm)
 
-    # Add or replace document in the database
-    database.replace_document(idterm, doc)
++     # Add or replace document in the database
++     database.replace_document(idterm, doc)
 ```
 
 Finally, we've indexed hackernews data and would be adding search functionalities in the next article.
