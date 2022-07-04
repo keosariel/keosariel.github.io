@@ -1,6 +1,6 @@
 ---
 published: true
-title: learn xapian searching part 2
+title: 'learn xapian: searching part 2'
 layout: post
 ---
 We currently have a database populated with some hackernews posts, it is really not helpful if we don't implement the code to search the database and display results.
