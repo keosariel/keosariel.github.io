@@ -113,5 +113,3 @@ Here's the rest of this series
 ](https://keosariel.github.io/2022/07/04/learn-xapian-basic-indexing-part-1/)
 - [learn xapian searching part 2
 ](https://keosariel.github.io/2022/07/04/learn-xapian-searching-part-2/)
-
-
