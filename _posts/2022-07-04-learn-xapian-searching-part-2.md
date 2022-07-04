@@ -15,9 +15,9 @@ Queries are just a simple way by which documents are searched for in a database.
 
 When making a query, you most likely want to search for multiple terms i.e `"search engine"` or `["search", "engine"]`. You'd want results for both "search" and "engine", xapian lets you do this using logical operators like:
 
-`OP_OR` - matches documents which match query A or B (or both)
-`OP_AND` - matches documents which match both query A and B
-`OP_AND_NOT` - matches documents which match query A but not B
+- `OP_OR` - matches documents which match query A or B (or both)
+- `OP_AND` - matches documents which match both query A and B
+- `OP_AND_NOT` - matches documents which match query A but not B
 
 just to name a few, you can [see here](https://getting-started-with-xapian.readthedocs.io/en/latest/concepts/search/queries.html) for more details.
 
