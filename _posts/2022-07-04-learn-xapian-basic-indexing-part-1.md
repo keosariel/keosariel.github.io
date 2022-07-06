@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: 'learn xapian: basic indexing part 1'
+posttype: dev
 ---
 Xapian is a free and open-source C++ probabilistic information retrieval library that provides very powerful tools or functions. Xapian scales very well as it says [here](https://xapian.org/docs/scalability.html#:~:text=People%20often%20want%20to%20know,1.5%20terabytes%20of%20database%20files) - an early version of the software powered the (now defunct) Webtop search engine which offered a search over around 500 million web pages (around 1.5 terabytes of database files). Searches took less than a second.
 
