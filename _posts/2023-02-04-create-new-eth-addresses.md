@@ -6,7 +6,7 @@ title: Generating eth addresses using eth_account (python)
 
 This is quite straight forward...
 
-```bash $ pip install eth-account```
+```$ pip install eth-account```
 
 ```python
 from eth_account import Account
