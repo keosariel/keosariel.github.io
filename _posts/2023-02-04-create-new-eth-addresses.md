@@ -3,9 +3,10 @@ published: true
 layout: post
 title: Generating eth addresses using eth_account (python)
 ---
-## Generating eth addresses using `eth_account`
 
 This is quite straight forward...
+
+```bash $ pip install eth-account```
 
 ```python
 from eth_account import Account
